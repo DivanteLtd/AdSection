@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <adsection translate="title" module="divantecommon_adsection">
+            <title>Adsection</title>
+            <sort_order>1500</sort_order>
+            <children>
+                <section translate="title" module="divantecommon_adsection">
+                    <title>Sections</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/section/index</action>
+                </section>
+                <block translate="title" module="divantecommon_adsection">
+                    <title>Blocks</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/block/index</action>
+                </block>
+            </children>
+        </adsection>
+    </menu>
+</config>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <default></default>
+
+    <adminhtml_section_index>
+        <reference name="content">
+            <block type="divantecommon_adsection/adminhtml_section" name="adsection"/>
+        </reference>
+    </adminhtml_section_index>
+
+    <adminhtml_section_edit>
+        <reference name="content">
+            <block type="divantecommon_adsection/adminhtml_section_edit" name="adsection" />
+        </reference>
+    </adminhtml_section_edit>
+
+    <adminhtml_block_index>
+        <reference name="content">
+            <block type="divantecommon_adsection/adminhtml_block" name="adsection"/>
+        </reference>
+    </adminhtml_block_index>
+
+    <adminhtml_block_edit>
+        <update handle="editor"/>
+        <reference name="content">
+            <block type="divantecommon_adsection/adminhtml_block_edit" name="adsection">
+            </block>
+        </reference>
+    </adminhtml_block_edit>
+
+</layout>

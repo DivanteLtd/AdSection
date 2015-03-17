@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DivanteCommon_AdSection>
+            <active>true</active>
+            <codePool>local</codePool>
+        </DivanteCommon_AdSection>
+    </modules>
+</config>
